@@ -1,0 +1,1 @@
+[Techniques](https://developer.nvidia.com/blog/introduction-to-llm-agents/#:~:text=guide%20this%20decomposition.-,Reflection%20or%20critic,be%20used%20to%20refine%20the%20execution%20plan%20generated%20by%20the%20agent.,-Agents%20for%20enterprise)
