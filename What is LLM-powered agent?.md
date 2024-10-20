@@ -2,3 +2,5 @@ They can be described as a system that can use an LLM to reason through a proble
 
 Here is a [[What it consists of?| typical architecture of an agent]]
 Here are [[Where it can be used?]]
+[[How is it different from typical chat?]]
+
