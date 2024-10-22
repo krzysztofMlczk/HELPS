@@ -13,6 +13,8 @@
 	1.  https://developer.nvidia.com/blog/building-your-first-llm-agent-application/
 	2. https://developer.nvidia.com/blog/build-an-llm-powered-api-agent-for-task-execution/
 	3. https://developer.nvidia.com/blog/build-an-llm-powered-data-agent-for-data-analysis/
+8. https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+9. 
 ## Conversations
 1. [ScholarGPT](https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt/c/670c0907-2308-8010-98a9-4bd920fc9e2d)
 
