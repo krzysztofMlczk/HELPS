@@ -68,6 +68,7 @@ TODO (all of this can be described in the paper!):
 - [ ] Decide on models:
 	- [ ] we should choose only the models that perform good in similar benchmarks (see: https://youtu.be/DeIUJRd48fI?t=1314)
 - [ ] Estimate cost for 4-5 main models and 1000 examples (what is the average token count for logic problem? top token count? etc?)
+	- [ ] FOR TESTING WE COULD USE LOCAL LLLAMA MODEL!!! + ipynb (https://www.youtube.com/watch?v=aJ064KCr7OU)
 - [ ] Describe evaluation flow
 	- [ ] Diagram that describes how exactly the evaluation will work (including the fact that responses will be judged by LLM :D)
 - [ ] Decide on tech stack used
@@ -91,3 +92,9 @@ TODO (all of this can be described in the paper!):
 	- [ ] Should it be zero-shot (prompt with no examples) - best for cost optimization
 - [ ] Prepare the dataset (golden dataset):
 	- [ ] {problem: "", answer: "", difficulty: easy | medium | hard}
+
+
+OTHER LINKS:
+- local llms: https://www.youtube.com/watch?v=0n35ETVXY9g
+- LLM Evaluation (ML Expert) - https://www.mlexpert.io/bootcamp/llm-evaluation
+	- video: https://www.youtube.com/watch?v=H2DDISTgm7U
