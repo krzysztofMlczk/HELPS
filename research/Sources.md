@@ -33,3 +33,6 @@
 
 ## Repositories
 1. https://github.com/ServiceNow/TapeAgents
+
+# Surveys
+1. https://github.com/NiuTrans/ABigSurveyOfLLMs
