@@ -1,3 +1,4 @@
+## Running LLMs locally
 TLDR;
 There is [many ways](https://www.reddit.com/r/LocalLLaMA/comments/1cktkhu/the_easier_way_to_run_a_local_llm/).
 Easiest: https://lmstudio.ai/
@@ -10,5 +11,3 @@ Easiest: https://lmstudio.ai/
 
 related:
 [History of open source LLMs](https://cameronrwolfe.substack.com/p/the-history-of-open-source-llms-better)
-
-
