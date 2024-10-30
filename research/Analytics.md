@@ -1,3 +1,8 @@
+---
+tags:
+  - subject
+---
+
 - [ ] [chatgpt users](https://explodingtopics.com/blog/chatgpt-users#user)
 - [ ] [paw research center - more people use ai in america](https://www.pewresearch.org/short-reads/2024/03/26/americans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information/)
 - [ ] [generative AI statistics](https://hatchworks.com/blog/gen-ai/generative-ai-statistics/)

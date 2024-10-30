@@ -1,3 +1,8 @@
+---
+tags:
+  - subject
+---
+
 Zbiór problemów logicznych o różnym poziomie zaawansowania oraz ich rozwiązań.
 
 ## Klasy problemów:

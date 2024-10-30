@@ -1,3 +1,7 @@
+---
+tags:
+  - structure
+---
 
 1. [[1.Wprowadzenie|1.Wprowadzenie]]
 2. [[2.Przegląd literatury|Przegląd literatury]]

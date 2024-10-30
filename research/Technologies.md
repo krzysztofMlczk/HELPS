@@ -1,3 +1,8 @@
+---
+tags:
+  - subject
+---
+
 - [ ] https://langfuse.com/
 - [ ] https://github.com/confident-ai/deepeval
 - [ ] 🏆 https://mlflow.org/docs/latest/llms/llm-evaluate/index.html

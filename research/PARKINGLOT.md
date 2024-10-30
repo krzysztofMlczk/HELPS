@@ -1,3 +1,8 @@
+---
+tags:
+  - parkinglot
+---
+
 ## Running LLMs locally
 TLDR;
 There is [many ways](https://www.reddit.com/r/LocalLLaMA/comments/1cktkhu/the_easier_way_to_run_a_local_llm/).
