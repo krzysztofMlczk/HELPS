@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="Strona-1" id="2hbkW7stXNWY9l5h4_RY">
+    <mxGraphModel dx="705" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R_Z2iF2Xklo7ib0Kz_IP-1" value="&lt;div&gt;Napisz e-mail składający się z trzech akapitów na potrzeby kampanii marketingowej dla firmy&lt;/div&gt;&lt;div&gt;księgowej&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="74" y="150" width="346" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

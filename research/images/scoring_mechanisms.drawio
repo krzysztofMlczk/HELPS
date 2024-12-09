@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Strona-1" id="0t-S-cLcq4MEV393zugD">
+    <mxGraphModel dx="1234" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="163.81" y="460" width="372.38" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IHLEclMzmztxkM5wKmtv-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Statystyczne&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IHLEclMzmztxkM5wKmtv-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Wykorzystujące modele ML&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="478.15" y="430" width="157.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="363.81" y="460" width="372.38" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-3" value="- BLEU&lt;div&gt;- ROUGE&lt;/div&gt;&lt;div&gt;- METEOR&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="250" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-4" value="- Odległość Levenshteina" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="230" y="580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-5" value="-BERTScore&lt;div&gt;-MoverScore&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="410" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-6" value="- QAG Score&lt;div&gt;- GPTScore&lt;/div&gt;&lt;div&gt;- SelfCheckGPT&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="385" y="500" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-7" value="- GEval&lt;div&gt;- Prometheus&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="530" y="490" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-8" value="- NLI&lt;div&gt;- BLEURT&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="555" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="191.9" y="710" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="281.9" y="740" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="551.9" y="710" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="380.9" y="710" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="476.9" y="740" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-15" value="Oparte na słowach" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="201.9" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-16" value="Oparte na znakach" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="291.9" y="730" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-18" value="Modele osadzania słów" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="391.9" y="700" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-20" value="Wielkie Modele Językowe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="568.09" y="700" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_N6kdJLRhIHwghMaFlB-21" value="Inne modele NLP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="486.9" y="730" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
