@@ -11,4 +11,9 @@ deepeval==2.0.5
 transformers==4.47.0
 torch==2.5.1
 bitsandbytes==0.42.0
+lm-format-enforcer==0.10.9
+accelerate==1.2.0
+openai==1.57.1
+langchain-openai==0.2.12
+
 
