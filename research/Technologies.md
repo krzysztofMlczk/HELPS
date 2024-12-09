@@ -2,7 +2,7 @@
 tags:
   - subject
 ---
-
+- [ ] [OpenAI SimpleEvals](https://github.com/openai/simple-evals)
 - [ ] https://langfuse.com/
 - [ ] https://github.com/confident-ai/deepeval
 - [ ] 🏆 https://mlflow.org/docs/latest/llms/llm-evaluate/index.html

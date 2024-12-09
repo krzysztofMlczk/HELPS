@@ -2,7 +2,7 @@
 tags:
   - subject
 ---
-
+- [ ] [top used licenses for LLM models](https://www.researchgate.net/figure/shows-the-10-most-used-licenses-in-LLM-models-The-data-was-collected-from-HuggingFace_fig3_377725018)
 - [ ] [chatgpt users](https://explodingtopics.com/blog/chatgpt-users#user)
 - [ ] [paw research center - more people use ai in america](https://www.pewresearch.org/short-reads/2024/03/26/americans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information/)
 - [ ] [generative AI statistics](https://hatchworks.com/blog/gen-ai/generative-ai-statistics/)
