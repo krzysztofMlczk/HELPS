@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()
 HF_TOKEN = os.getenv("HUGGING_FACE_TOKEN")
 
-
-class CustomLlama3_8B(DeepEvalBaseLLM):
+# NOTE: PENDING APPROVAL ON HUGGING FACE
+class Llama_3_8B_instruct(DeepEvalBaseLLM):
     def __init__(self):
         quantization_config = BitsAndBytesConfig(
             load_in_4bit=True,
@@ -61,5 +61,5 @@ class CustomLlama3_8B(DeepEvalBaseLLM):
         return "Llama-3 8B"
 
 
-llama_3_8b = CustomLlama3_8B()
+llama_3_8b = Llama_3_8B_instruct()
 print(llama_3_8b.generate("Write me a joke"))
