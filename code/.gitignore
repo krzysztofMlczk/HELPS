@@ -1,8 +1,2 @@
+# env
 .env
-
-# deepEval
-/data
-.deepeval-cache.json
-.deepeval_telemtry.txt
-
-/data-as-json
