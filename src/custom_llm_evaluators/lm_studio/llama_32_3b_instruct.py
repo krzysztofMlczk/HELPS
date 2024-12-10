@@ -22,7 +22,3 @@ class LLama_32_3b_instruct(DeepEvalBaseLLM):
 
     def get_model_name(self):
         return self.model
-
-
-model = LLama_32_3b_instruct()
-print(model.generate("Write me a joke"))
