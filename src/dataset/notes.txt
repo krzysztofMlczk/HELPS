@@ -1,0 +1,15 @@
+TODO:
+add tags to all questions
+
+WHAT ARE STRENGTHS OF THIS DATASET?
+- created by people
+- labeled by people
+- not synthetic (not auto generated)
+- covers many different domains from medical through computers to language translation tasks and decision making
+
+WHAT ARE ITS WEAKNESSES?
+- small volume
+- most tasks are in english
+- most ankietowanych to developerzy
+    (dobrze by bylo rozszerzyc ten dataset na innych ludzi)
+-

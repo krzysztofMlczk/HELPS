@@ -1,0 +1,170 @@
+[
+  {
+    "task": "I want to buy an apartment. Create me a table with 'years', 'percent', 'month payment', 'general costs' columns for credit offers from top 3 most popular banks in Poland."
+  },
+  {
+    "task": "How can I use a swap file instead of a swap partition on Ubuntu?"
+  },
+  {
+    "task": "I am the owner of an innovative carpentry shop making furniture combining wood and epoxy. Generate a short text (max. 5 sentences) to present my company on the website, at a conference or in conversations with potential business partners."
+  },
+  {
+    "task": "I want to relax by watching a live cam from somewhere in the world. Suggest me a place to watch?"
+  },
+  {
+    "task": "Write short short good-night story for my daughter about crazy bunny."
+  },
+  {
+    "task": "How can I put links in markdown file? Provide example."
+  },
+  {
+    "task": "Write a polite letter to my boss to reschedule our Saturday morning meeting."
+  },
+  {
+    "task": "What should I return in HTTP patch operation? New object or the original one?"
+  },
+  {
+    "task": "Solve, translate and provide explanation: De voorzitter (staan)___ op en zei : 'Is iedereen daar?'"
+  },
+  {
+    "task": "I am working on the electricity in my new house I bought. I've grounded some power sockets but now the the earth leakage breaker switches off immediately when I try to switch on the main power. What could be the problem here?"
+  },
+  {
+    "task": "I have a flight today and the plane is taking off from Chopin Airport at 8PM. How can I get there as soon as possible, assuming that I'm at the Warsaw Central Train station right now?"
+  },
+  {
+    "task": "Does my cat love?"
+  },
+  {
+    "task": "Give me the latest information on what's going on with AI."
+  },
+  {
+    "task": "Help me rephrase this text in a more professional and serious tone: 'I will not be able to join as I have more important things to do'"
+  },
+  {
+    "task": "Write a template of cover letter for professional analyst with 10 years of experience that worked in major banks: Bank1, Bank2, Bank3."
+  },
+  {
+    "task": "Regex to find this kind of string: '_id': '564f6d46-b3de-4b88-a92d-b1780e09f1dd'"
+  },
+  {
+    "task": "I have a prescription for a flash glucose monitoring (FGM) sensor that replaces the need to monitor blood glucose levels with a glucometer for up to 3 units. Where and how to order it?"
+  },
+  {
+    "task": "What are the torque specifications for caliper mounting bracket bolts on a 2010 Chevy Colorado?"
+  },
+  {
+    "task": "Let's say there is closed gas system with temperature of 5c pressure 100 atmospheres and it's 100l of co2. How much energy will produce increasing temperature of this system by 20c degrees?"
+  },
+  {
+    "task": "I have a headache. What would be the best approach to deal with it - lay down doing nothing, go for a walk, watch some funny movie. I heard something really interesting can help with headache sometimes."
+  },
+  {
+    "task": "My cat wakes me up every day at 5 a.m. and scratches the window. What can I do to make him stop doing this?"
+  },
+  {
+    "task": "Break down the following sentence grammatically: 270人以上の選挙人を集めると当選が確実になります。"
+  },
+  {
+    "task": "I am doing a short 20 min presentation on mental toughness based on the MTQ48 tool. Please give me some examples of how this tool and mental toughness theory is used in sport and give me some interesting statistics based on mental toughness research."
+  },
+  {
+    "task": "Write a letter of condolence for family of retired army veteran."
+  },
+  {
+    "task": "Write short description on what are dangling pointers in C++."
+  },
+  {
+    "task": "Give me name and location of all the taco joints within 1 hour drive, ranked by quality."
+  },
+  {
+    "task": "Im making a precipitation chart and i have its Y axis in mm/h. What should be the limit of that chart? Maybe a logarithmic scale?"
+  },
+  {
+    "task": "Was it more healthy chicken nuggets or veggie chicken nuggets from McDonald's?"
+  },
+  {
+    "task": "I heard a word last week that I didn't know what it meant. It describes a character of a person as being calm, timid, it started with 'ph' do you remember the word?"
+  },
+  {
+    "task": "I would like to eat some good pizza. Can you recommend me something in Wrocław? I am looking for a restaurant with food delivery service."
+  },
+  {
+    "task": "Give me 2 low budget recipes please."
+  },
+  {
+    "task": "Find me a link to dataset for bacteria infected X-Ray images of human chest."
+  },
+  {
+    "task": "I need to interview candidates for a GenAI cybersecurity position, what key questions should I ask to verify the candidate has the right skills?"
+  },
+  {
+    "task": "Using typescript, i have a string that can have anything, quotes, commas, new lines, etc. I want to add it to a csv string, correctly format it."
+  },
+  {
+    "task": "Where do the words come from: 'It's a bold yet noble idea to aim at the stars with a slingshot'?"
+  },
+  {
+    "task": "What are the differences between the NASB and LSB translations for the 7 'I Am' verses in the Gospel of John?"
+  },
+  {
+    "task": "Write regular expression to detect dates in polish format."
+  },
+  {
+    "task": "There is a word that is on the tip of my tongue, but I can't remember it. It's something like motivation, or driving force."
+  },
+  {
+    "task": "In psychology, what is the name given to the phenomenon that when you yourself are in a situation (e.g. divorce) or making a decision (e.g. buying a car of a certain brand), you pick up similar situations from your environment and subconsciously reinforce their occurrence?"
+  },
+  {
+    "task": "My stove is dead. make a recipe with instant noodle, cheese, ham, bacon, spices without using a stove."
+  },
+  {
+    "task": "How many people die at dentists each year?"
+  },
+  {
+    "task": "How much salt per 100g of sausage is considered normal and how much is to much?"
+  },
+  {
+    "task": "Could you make me a schedule for running. I want to be able to run 10K in 4 months. I want to run twice a week."
+  },
+  {
+    "task": "Hey, I recently heard a song that goes like 'I'm not a man of too many faces. The mask I wear is one'. Can you remind me the title?"
+  },
+  {
+    "task": "Symptoms, treatment, screening test for porphyria"
+  },
+  {
+    "task": "I'll be traveling in December and I'll only have a day in Rome, How would you recommend I spend my day there?"
+  },
+  {
+    "task": "Python install and record requirements openapi package."
+  },
+  {
+    "task": "Present a logical argument why the concept of a Perfect Being is internally contradictory (self-refuting)."
+  },
+  {
+    "task": "How do you start a non-profit organization in the US?"
+  },
+  {
+    "task": "How do you take care of your own health without medication? Give examples of natural remedies for common seasonal illnesses."
+  },
+  {
+    "task": "How to install an air conditioner yourself? Give step-by-step details and the tools needed."
+  },
+  {
+    "task": "What's the difference between manjaro and ubuntu linux distros for a newcomer?"
+  },
+  {
+    "task": "Write me great Christmas wishes for my grandma"
+  },
+  {
+    "task": "I have a beko dishwasher. It displays ERR2. What is wrong with it? How to resolve this?"
+  },
+  {
+    "task": "How can I connect water to my Samsung fridge?"
+  },
+  {
+    "task": "What's the difference between English B2 and A2?"
+  }
+]
