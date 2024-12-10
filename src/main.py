@@ -5,15 +5,16 @@
 # MODEL, SYSTEM_PROMPT, TEMPERATURE (and whatever else that seems to make sense)
 from deepeval.test_case import LLMTestCase
 
-from src.custom_llm_evaluators.lm_studio.llama_32_3b_instruct import (
-    LLama_32_3b_instruct,
-)
 from deepeval.metrics import AnswerRelevancyMetric
 
+from src.custom_llm_evaluators.hf_transformers.mistral_7b import CustomMistral7B
+from src.custom_llm_evaluators.lm_studio.llama_32_3b_instruct import LLama_32_3b_instruct
+
 llama = LLama_32_3b_instruct()
+mistral = CustomMistral7B()
 
 
-metric = AnswerRelevancyMetric(model=llama)
+metric = AnswerRelevancyMetric(model=mistral)
 prompt = "What are you?"
 generated = llama.generate(prompt)
 score = metric.measure(
