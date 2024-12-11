@@ -222,5 +222,181 @@
   {
     "task_id": "helps/55",
     "input": "What's the difference between English B2 and A2?"
+  },
+  {
+    "task_id": "helps/56",
+    "input": "I'm planning a small vegetable garden. Can you suggest a planting schedule for tomatoes, cucumbers, and carrots?"
+  },
+  {
+    "task_id": "helps/57",
+    "input": "How can I stop procrastinating and focus better on my work?"
+  },
+  {
+    "task_id": "helps/58",
+    "input": "Write a haiku about the first snowfall of the year."
+  },
+  {
+    "task_id": "helps/59",
+    "input": "What are the key differences between traditional and Roth IRAs in the US?"
+  },
+  {
+    "task_id": "helps/60",
+    "input": "I forgot my wife's birthday. How can I apologize in a meaningful way?"
+  },
+  {
+    "task_id": "helps/61",
+    "input": "Suggest a list of books similar to 'The Alchemist' by Paulo Coelho."
+  },
+  {
+    "task_id": "helps/62",
+    "input": "What are the nutritional differences between almond milk and cow's milk?"
+  },
+  {
+    "task_id": "helps/63",
+    "input": "I'm attending a wedding in winter. What should I wear to look stylish but stay warm?"
+  },
+  {
+    "task_id": "helps/64",
+    "input": "Write a resignation letter for an entry-level software engineer."
+  },
+  {
+    "task_id": "helps/65",
+    "input": "Explain why the sky appears blue during the day and red during sunset."
+  },
+  {
+    "task_id": "helps/66",
+    "input": "I want to start learning Japanese. What resources do you recommend for beginners?"
+  },
+  {
+    "task_id": "helps/67",
+    "input": "How do I set up a home Wi-Fi network securely?"
+  },
+  {
+    "task_id": "helps/68",
+    "input": "What are some creative ideas for a 10-year-old's birthday party?"
+  },
+  {
+    "task_id": "helps/69",
+    "input": "Create a 3-day workout plan for someone new to exercising."
+  },
+  {
+    "task_id": "helps/70",
+    "input": "How do I set up a budget to save for a vacation?"
+  },
+  {
+    "task_id": "helps/71",
+    "input": "What's the best way to remove wine stains from a white shirt?"
+  },
+  {
+    "task_id": "helps/72",
+    "input": "What are the symptoms of vitamin D deficiency and how can I address them?"
+  },
+  {
+    "task_id": "helps/73",
+    "input": "Write a short speech to thank my team for their hard work this year."
+  },
+  {
+    "task_id": "helps/74",
+    "input": "Explain how compound interest works with a simple example."
+  },
+  {
+    "task_id": "helps/75",
+    "input": "How can I make my small apartment feel more spacious?"
+  },
+  {
+    "task_id": "helps/76",
+    "input": "What are some easy and healthy snacks for kids?"
+  },
+  {
+    "task_id": "helps/77",
+    "input": "I'm planning a trip to Japan. What are the must-visit places for first-timers?"
+  },
+  {
+    "task_id": "helps/78",
+    "input": "How can I improve my public speaking skills?"
+  },
+  {
+    "task_id": "helps/79",
+    "input": "What are the best practices for maintaining a healthy work-life balance?"
+  },
+  {
+    "task_id": "helps/80",
+    "input": "How do I choose the right laptop for graphic design work?"
+  },
+  {
+    "task_id": "helps/81",
+    "input": "Write a funny invitation for a family game night."
+  },
+  {
+    "task_id": "helps/82",
+    "input": "What are the benefits of yoga for mental health?"
+  },
+  {
+    "task_id": "helps/83",
+    "input": "What is the difference between a credit score and a credit report?"
+  },
+  {
+    "task_id": "helps/84",
+    "input": "How can I make my resume stand out for a marketing job?"
+  },
+  {
+    "task_id": "helps/85",
+    "input": "I'm new to investing. What are some safe options to start with?"
+  },
+  {
+    "task_id": "helps/86",
+    "input": "Explain the concept of blockchain in simple terms."
+  },
+  {
+    "task_id": "helps/87",
+    "input": "What are the steps to apply for a passport in the US?"
+  },
+  {
+    "task_id": "helps/88",
+    "input": "How do I bake a perfect chocolate chip cookie?"
+  },
+  {
+    "task_id": "helps/89",
+    "input": "What are some fun at-home date night ideas?"
+  },
+  {
+    "task_id": "helps/90",
+    "input": "Write a formal apology email for missing an important meeting."
+  },
+  {
+    "task_id": "helps/91",
+    "input": "What are the key differences between fixed and variable-rate mortgages?"
+  },
+  {
+    "task_id": "helps/92",
+    "input": "How do I clean and maintain leather shoes?"
+  },
+  {
+    "task_id": "helps/93",
+    "input": "What are the signs of burnout, and how can I prevent it?"
+  },
+  {
+    "task_id": "helps/94",
+    "input": "I'm moving abroad for work. What should I know before relocating?"
+  },
+  {
+    "task_id": "helps/95",
+    "input": "How do I politely decline an invitation to a social event?"
+  },
+  {
+    "task_id": "helps/96",
+    "input": "What are some beginner tips for taking care of houseplants?"
+  },
+  {
+    "task_id": "helps/97",
+    "input": "How can I recycle old electronics responsibly?"
+  },
+  {
+    "task_id": "helps/98",
+    "input": "What's the best way to organize a messy closet?"
+  },
+  {
+    "task_id": "helps/99",
+    "input": "How can I prepare for a job interview effectively?"
   }
 ]
