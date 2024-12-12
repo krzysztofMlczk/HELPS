@@ -69,7 +69,7 @@ def dump_to_file(data, file_name):
         file.write(json.dumps(data, indent=2))
 
 def generate(model_name):
-    dataset = load_dataset()[:1]
+    dataset = load_dataset()
     llm = get_llm(model_name)
     prompt = ChatPromptTemplate.from_messages(
         [
@@ -89,15 +89,18 @@ def generate(model_name):
     results_file_name = f"{file_date_prefix}_results_{model_name}.json"
 
     for dataset_item in tqdm.tqdm(dataset):
-        chain = prompt | llm
-        llm_output = chain.invoke({"user_input": dataset_item["input"]})
-        result = {
-            **dataset_item,
-            "output": llm_output.model_dump()
-        }
-        results.append(result)
-        dump_to_file(result, log_file_name)
-        time.sleep(1)
+        try:
+            chain = prompt | llm
+            llm_output = chain.invoke({"user_input": dataset_item["input"]})
+            result = {
+                **dataset_item,
+                "output": llm_output.model_dump()
+            }
+            results.append(result)
+            dump_to_file(result, log_file_name)
+            time.sleep(1)
+        except Exception as e:
+            dump_to_file(str(e), log_file_name)
     dump_to_file(results, results_file_name)
 
 
