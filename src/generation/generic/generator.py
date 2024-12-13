@@ -1,15 +1,15 @@
-import json
 import os
 import tqdm
 import time
-from datetime import datetime
-from dotenv import load_dotenv
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 
-load_dotenv()
+from src.generation.common.utils import get_system_prompt, load_dataset, load_env_variables, get_file_date_prefix, \
+    get_log_file_name, get_results_file_name, dump_to_file
+
+load_env_variables()
 OPEN_AI_API_KEY = os.getenv("OPENAI_API_KEY")
 ANTHROPIC_API_KEY= os.getenv("ANTHROPIC_API_KEY")
 
@@ -17,8 +17,6 @@ ANTHROPIC_API_KEY= os.getenv("ANTHROPIC_API_KEY")
 # GPT-4
 # CLAUDE 3.5 Haiku
 # GEMINI 2.0
-
-system_prompt = "You are a friendly and knowledgeable assistant, skilled in providing practical advice and support for everyday life. Your role is to help users solve real-life problems, make decisions, and answer questions related to daily activities in a clear, concise, and actionable manner. Ensure your responses are helpful, fact-based, and empathetic. Always clarify uncertainties and avoid guessing if you're unsure about something. Where appropriate, provide step-by-step instructions or examples to support your advice."
 
 # These values were determined based on manual tests conducted for each model
 llm_settings = {
@@ -31,11 +29,6 @@ llm_settings = {
     # Not specified to allow any content length
     "max_tokens": None, # DEFAULTS: openai->None,
 }
-
-def load_dataset():
-    with open("../../dataset/helps.json", "r") as file:
-        data = json.load(file)
-        return data
 
 
 def get_llm(model_name):
@@ -64,10 +57,6 @@ def get_llm(model_name):
         case _:
             raise Exception("Unsupported model")
 
-def dump_to_file(data, file_name):
-    with open(file_name, "a") as file:
-        file.write(json.dumps(data, indent=2))
-
 def generate(model_name):
     dataset = load_dataset()
     llm = get_llm(model_name)
@@ -75,7 +64,7 @@ def generate(model_name):
         [
             (
                 "system",
-                system_prompt,
+                get_system_prompt(),
             ),
             (
                 "human",
@@ -84,9 +73,8 @@ def generate(model_name):
         ]
     )
     results = []
-    file_date_prefix = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    log_file_name = f"{file_date_prefix}_log_{model_name}.json"
-    results_file_name = f"{file_date_prefix}_results_{model_name}.json"
+    log_file_name = get_log_file_name(model_name)
+    results_file_name = get_results_file_name(model_name)
 
     for dataset_item in tqdm.tqdm(dataset):
         try:
