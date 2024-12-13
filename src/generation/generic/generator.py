@@ -33,7 +33,7 @@ llm_settings = {
 }
 
 def load_dataset():
-    with open("../dataset/helps.json", "r") as file:
+    with open("../../dataset/helps.json", "r") as file:
         data = json.load(file)
         return data
 
