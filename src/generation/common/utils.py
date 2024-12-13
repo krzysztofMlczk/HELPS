@@ -10,19 +10,15 @@ def dump_to_file(data, file_name):
 
 
 def get_results_file_name(model_name):
-    return f"{get_file_date_prefix()}_results_{model_name}.json"
+    return f"./results/{get_file_date_prefix()}_results_{model_name}.json"
 
 
 def get_log_file_name(model_name):
-    return f"{get_file_date_prefix()}_log_{model_name}.json"
+    return f"./logs/{get_file_date_prefix()}_log_{model_name}.json"
 
 
 def get_file_date_prefix():
     return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-
-
-def load_env_variables():
-    load_dotenv()
 
 
 def load_dataset():
@@ -32,6 +28,6 @@ def load_dataset():
 
 
 def get_system_prompt():
-    with open("./system_prompt.txt", "r") as file:
+    with open("../common/system_prompt.txt", "r") as file:
         system_prompt = file.read()
         return system_prompt

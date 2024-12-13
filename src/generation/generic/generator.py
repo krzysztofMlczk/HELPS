@@ -2,16 +2,22 @@ import os
 import tqdm
 import time
 
+from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 
-from src.generation.common.utils import get_system_prompt, load_dataset, load_env_variables, get_file_date_prefix, \
-    get_log_file_name, get_results_file_name, dump_to_file
+from src.generation.common.utils import (
+    get_system_prompt,
+    load_dataset,
+    get_log_file_name,
+    get_results_file_name,
+    dump_to_file,
+)
 
-load_env_variables()
+load_dotenv()
 OPEN_AI_API_KEY = os.getenv("OPENAI_API_KEY")
-ANTHROPIC_API_KEY= os.getenv("ANTHROPIC_API_KEY")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 # MODELS:
 # GPT-4
@@ -20,14 +26,14 @@ ANTHROPIC_API_KEY= os.getenv("ANTHROPIC_API_KEY")
 
 # These values were determined based on manual tests conducted for each model
 llm_settings = {
-    "frequency_penalty": None,# DEFAULTS: openai->0,
-    "presence_penalty": None, # DEFAULTS: openai->0,
+    "frequency_penalty": None,  # DEFAULTS: openai->0,
+    "presence_penalty": None,  # DEFAULTS: openai->0,
     # 0.7 to balance coherence and creativity
-    "temperature": 0.7, # DEFAULTS: openai->1
-    "top_p": None, # DEFAULTS: openai->1
-    "n": 1, # DEFAULTS: openai->1
+    "temperature": 0.7,  # DEFAULTS: openai->1
+    "top_p": None,  # DEFAULTS: openai->1
+    "n": 1,  # DEFAULTS: openai->1
     # Not specified to allow any content length
-    "max_tokens": None, # DEFAULTS: openai->None,
+    "max_tokens": None,  # DEFAULTS: openai->None,
 }
 
 
@@ -57,6 +63,7 @@ def get_llm(model_name):
         case _:
             raise Exception("Unsupported model")
 
+
 def generate(model_name):
     dataset = load_dataset()
     llm = get_llm(model_name)
@@ -80,10 +87,7 @@ def generate(model_name):
         try:
             chain = prompt | llm
             llm_output = chain.invoke({"user_input": dataset_item["input"]})
-            result = {
-                **dataset_item,
-                "output": llm_output.model_dump()
-            }
+            result = {**dataset_item, "output": llm_output.model_dump()}
             results.append(result)
             dump_to_file(result, log_file_name)
             time.sleep(1)
