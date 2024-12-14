@@ -1,9 +1,6 @@
 import json
 from datetime import datetime
 
-from dotenv import load_dotenv
-
-
 def dump_to_file(data, file_name):
     with open(file_name, "a") as file:
         file.write(json.dumps(data, indent=2))

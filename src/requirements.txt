@@ -4,20 +4,11 @@ black==24.10.0
 # env
 python-dotenv==1.0.1
 
-# evaluation framework
-deepeval==2.0.5
-
-# generator
+# generation
 tqdm==4.67.1
-langchain-anthropic==0.3.0
 
-# custom llm evaluators
-transformers==4.47.0
-torch==2.5.1
-lm-format-enforcer==0.10.9
-accelerate==1.2.0
-openai==1.57.1
-langchain-openai==0.2.12
+# evaluation
+deepeval==2.0.5
 
 
 
