@@ -10,5 +10,8 @@ tqdm==4.67.1
 # evaluation
 deepeval==2.0.5
 
+# report
+matplotlib==3.10.0
+
 
 
